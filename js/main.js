@@ -3,6 +3,15 @@
 // Número de WhatsApp en formato internacional, solo dígitos (ej.: 5215512345678).
 const WHATSAPP_NUMBER = "525528865136";
 
+// --- Al recargar la página, volver arriba (los enlaces directos a una sección siguen funcionando) ---
+const navEntry = performance.getEntriesByType ? performance.getEntriesByType("navigation")[0] : null;
+const isReload = navEntry ? navEntry.type === "reload" : (performance.navigation && performance.navigation.type === 1);
+if (isReload) {
+  if (location.hash) history.replaceState(null, "", location.pathname + location.search);
+  window.scrollTo({ top: 0, left: 0, behavior: "instant" });
+  window.addEventListener("load", () => window.scrollTo({ top: 0, left: 0, behavior: "instant" }));
+}
+
 // --- Barra de navegación: se vuelve sólida al bajar de la portada ---
 const nav = document.getElementById("nav");
 const hero = document.getElementById("inicio");

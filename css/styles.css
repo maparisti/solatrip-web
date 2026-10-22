@@ -362,12 +362,20 @@ h1, h2, h3, p { margin: 0; }
   .nav__inner { padding-top: 10px; padding-bottom: 10px; }
   .nav__logo { font-size: 1.75rem; }
   .hero { min-height: 0; align-content: start; background: var(--noche); }
-  .hero__photo { position: relative; inset: auto; height: 74svh; min-height: 460px; }
+  .hero__photo { position: relative; inset: auto; height: 56svh; min-height: 340px; }
   .hero__photo img { position: absolute; object-position: 64% 50%; }
-  .hero::before { bottom: auto; height: 74svh; min-height: 460px; background: linear-gradient(180deg, rgba(23, 47, 58, .72) 0%, rgba(23, 47, 58, .4) 30%, rgba(23, 47, 58, .05) 48%, rgba(23, 47, 58, 0) 70%, rgba(38, 70, 83, 1) 100%); }
-  .hero__brand { position: absolute; top: 0; padding-top: 92px; }
-  .hero__body { padding-top: 8px; padding-bottom: 48px; }
-  .hero__facts { flex-direction: column; gap: 8px; }
+  .hero::before { bottom: auto; height: 56svh; min-height: 340px; background: linear-gradient(180deg, rgba(23, 47, 58, .72) 0%, rgba(23, 47, 58, .4) 30%, rgba(23, 47, 58, .05) 48%, rgba(23, 47, 58, 0) 70%, rgba(38, 70, 83, 1) 100%); }
+  .hero__brand { position: absolute; top: 0; padding-top: 68px; }
+  .hero__title { font-size: clamp(4.4rem, 22vw, 6rem); }
+  .hero__slogan { font-size: 1.45rem; margin-top: 6px; }
+  .hero__body { padding-top: 4px; padding-bottom: 36px; }
+  .hero__lead { font-size: 1.18rem; }
+  .hero__actions { margin-top: 18px; gap: 12px 20px; }
+  .hero__actions { flex-wrap: nowrap; }
+  .hero__actions .btn { padding: 13px 18px; font-size: .95rem; white-space: nowrap; }
+  .hero__actions .link-soft { font-size: .95rem; white-space: nowrap; }
+  .hero__facts { margin-top: 18px; font-size: .84rem; }
+  .hero__facts { flex-direction: row; gap: 6px 16px; }
   .trip-form { grid-template-columns: 1fr; }
   .postcard__stamp { width: 92px; height: 92px; top: -30px; }
   .postcard__label { padding-right: 84px; }

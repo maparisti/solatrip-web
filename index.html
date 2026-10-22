@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>SolaTrip · Itinerarios para mujeres que viajan solas</title>
-  <meta name="description" content="Tú me cuentas qué quieres vivir y yo te ayudo a convertirlo en un itinerario personalizado. PDF por WhatsApp en 2 días hábiles, desde $15 USD.">
+  <meta name="description" content="Tu itinerario personalizado para viajar sola, sin pasar horas investigando. Para mujeres que viajan solas: PDF por WhatsApp en 2 días hábiles, desde $15 USD.">
   <meta property="og:title" content="SolaTrip · Explora el mundo a tu manera">
   <meta property="og:description" content="Itinerarios personalizados para mujeres que viajan solas. PDF por WhatsApp en 2 días hábiles, desde $15 USD.">
   <meta property="og:image" content="img/portada-playa-1200.jpg">
@@ -14,7 +14,11 @@
   <link rel="preload" href="fonts/caveat-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="fonts/poppins-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="css/styles.css">
-  <script>document.documentElement.classList.add("js")</script>
+  <script>
+    document.documentElement.classList.add("js");
+    // Al recargar, siempre volver a la portada (el navegador no recuerda la posición).
+    if ("scrollRestoration" in history) history.scrollRestoration = "manual";
+  </script>
 </head>
 <body>
   <a class="skip" href="#contenido">Saltar al contenido</a>
@@ -50,7 +54,7 @@
         <p class="hero__slogan">Explora el mundo a tu manera</p>
       </div>
       <div class="hero__body">
-        <p class="hero__lead">Menos tiempo investigando. Más tiempo preparando tu próxima aventura.</p>
+        <p class="hero__lead">Tu itinerario personalizado para viajar sola, sin pasar horas investigando.</p>
         <div class="hero__actions">
           <a class="btn" href="#formulario">Quiero mi itinerario</a>
           <a class="link-soft" href="#regalo">Mira uno de regalo</a>
@@ -170,9 +174,9 @@
       <div class="wrap about__grid">
         <div class="about__text">
           <h2 class="h2">Hola, soy Paulina <span aria-hidden="true">👋</span></h2>
-          <p>Vengo de Colombia y ahora vivo en México, el quinto país en el que he vivido. He viajado por varios países, la mayoría de las veces sola.</p>
-          <p>Cada itinerario lo armo yo misma, y con los años aprendí a punta de errores: los que ya cometí para que tú no tengas que cometerlos. Sé lo que es llegar a una ciudad nueva sin conocer a nadie, y también lo increíble que se siente cuando todo sale bien.</p>
-          <p>Por eso creé SolaTrip: para que viajar sola te dé menos miedo y más ganas. Yo pongo la experiencia; tú solo disfrutas el viaje. <span aria-hidden="true">✨</span></p>
+          <p>Soy colombiana y ahora vivo en México, el quinto país en el que he vivido.</p>
+          <p>Mi curiosidad por conocer el mundo me llevó a viajar sola. No siempre todo me ha salido como esperaba, pero las metidas de pata y las situaciones inesperadas me han dejado grandes anécdotas y me han enseñado a planear mejor cada viaje.</p>
+          <p>Por eso creé SolaTrip. No te prometo que todo saldrá perfecto (en parte, esa es la magia de viajar), pero sí que te ayudaré a tener un viaje más organizado e informado. <span aria-hidden="true">✨</span></p>
           <p class="about__ig">Si quieres, puedes echarle un vistazo a algunos de mis viajes en mi Instagram, <a href="https://www.instagram.com/maparisti/" target="_blank" rel="noopener">@maparisti</a>.</p>
         </div>
         <figure class="polaroid">
@@ -265,7 +269,7 @@
         <h2 class="h2 center">Preguntas frecuentes</h2>
         <details>
           <summary>¿Cuándo pago?</summary>
-          <p>Antes de que prepare tu itinerario. Me envías el formulario, te escribo por WhatsApp con el precio exacto y, si te cuadra, pagas el total por transferencia en pesos colombianos (COP), pesos mexicanos (MXN) o dólares (USD). En 2 días hábiles desde tu pago tienes tu itinerario.</p>
+          <p>Pagas luego de llenar el formulario y recibir mi confirmación por WhatsApp con el precio exacto. Puedes pagar el total por transferencia en pesos colombianos (COP), pesos mexicanos (MXN) o dólares (USD), y en 2 días hábiles desde tu pago tienes tu itinerario.</p>
         </details>
         <details>
           <summary>¿En cuánto tiempo lo recibo?</summary>

@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SolaTrip · Itinerarios para mujeres que viajan solas</title>
+  <meta name="description" content="Tú me cuentas qué quieres vivir y yo te ayudo a convertirlo en un itinerario personalizado. PDF por WhatsApp en 2 días hábiles, desde $15 USD.">
+  <meta property="og:title" content="SolaTrip · Explora el mundo a tu manera">
+  <meta property="og:description" content="Itinerarios personalizados para mujeres que viajan solas. PDF por WhatsApp en 2 días hábiles, desde $15 USD.">
+  <meta property="og:image" content="img/portada-playa-1200.jpg">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#264653">
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="fonts/caveat-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/poppins-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/styles.css">
+  <script>document.documentElement.classList.add("js")</script>
+</head>
+<body>
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a class="nav__logo" href="#inicio" aria-label="SolaTrip, inicio">SolaTrip</a>
+      <nav aria-label="Secciones">
+        <ul class="nav__links" id="menu">
+          <li><a href="#que-incluye">Qué incluye</a></li>
+          <li><a href="#como-funciona">Cómo funciona</a></li>
+          <li><a href="#precio">Precio</a></li>
+          <li><a href="#sobre-mi">Sobre mí</a></li>
+        </ul>
+      </nav>
+      <a class="btn btn--small" href="#formulario">Quiero mi itinerario</a>
+      <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menú">
+        <span class="nav__bars" aria-hidden="true"></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="contenido">
+
+    <!-- ================= PORTADA ================= -->
+    <section class="hero" id="inicio">
+      <picture class="hero__photo">
+        <source type="image/webp" srcset="img/portada-playa-1200.webp 1200w, img/portada-playa-2000.webp 2000w" sizes="100vw">
+        <img src="img/portada-playa-2000.jpg" srcset="img/portada-playa-1200.jpg 1200w, img/portada-playa-2000.jpg 2000w" sizes="100vw" alt="Paulina corriendo descalza por la orilla de una playa, con el mar y un cielo azul de fondo" fetchpriority="high">
+      </picture>
+      <div class="hero__brand">
+        <h1 class="hero__title">SolaTrip</h1>
+        <p class="hero__slogan">Explora el mundo a tu manera</p>
+      </div>
+      <div class="hero__body">
+        <p class="hero__lead">Menos tiempo investigando. Más tiempo preparando tu próxima aventura.</p>
+        <div class="hero__actions">
+          <a class="btn" href="#formulario">Quiero mi itinerario</a>
+          <a class="link-soft" href="#regalo">Mira uno de regalo</a>
+        </div>
+        <ul class="hero__facts">
+          <li>Para mujeres que viajan solas</li>
+          <li>PDF por WhatsApp en 2 días hábiles</li>
+          <li>Desde $15 USD</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ================= QUÉ RECIBES ================= -->
+    <section class="section includes" id="que-incluye">
+      <div class="wrap includes__grid">
+        <div class="includes__pages" aria-hidden="true">
+          <picture class="page-shot page-shot--back">
+            <source type="image/webp" srcset="img/pdf-dia1-foto.webp">
+            <img src="img/pdf-dia1-foto.jpg" alt="" loading="lazy" width="760" height="1075">
+          </picture>
+          <picture class="page-shot page-shot--front">
+            <source type="image/webp" srcset="img/pdf-dia1-datos.webp">
+            <img src="img/pdf-dia1-datos.jpg" alt="" loading="lazy" width="760" height="1075">
+          </picture>
+          <p class="hand-note hand-note--pages">Así se ve un día de tu itinerario</p>
+        </div>
+        <div class="includes__text">
+          <h2 class="h2">Todo tu viaje en un PDF que llevas en el celular</h2>
+          <ul class="checks">
+            <li><strong>Día por día:</strong> mañana, tarde y noche, según tu destino, tus días, tu presupuesto y tu estilo.</li>
+            <li><strong>Seguridad pensada para ti:</strong> zonas a evitar, cómo moverte de noche, transporte confiable y estafas comunes del destino.</li>
+            <li><strong>Tips prácticos:</strong> eSIM, transporte y pases.</li>
+            <li><strong>Presupuesto aproximado por día,</strong> para que no te lleves sorpresas.</li>
+            <li><strong>Un mapa de Google</strong> con todas las recomendaciones, listo para abrir desde el celular.</li>
+            <li><strong>Una revisión gratis</strong> si quieres cambiar algo.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= REGALO ================= -->
+    <section class="section gift" id="regalo">
+      <div class="wrap gift__grid">
+        <div class="gift__text">
+          <h2 class="h2 h2--light">Míralo antes de pagar</h2>
+          <p>Te regalo el itinerario completo de mi viaje sola por Suiza y Escocia: 7 días de lagos, trenes, castillos y callejones de película. Así ves exactamente cómo es lo que recibes.</p>
+          <a class="btn btn--sun" href="regalo/SolaTrip-Itinerario-Suiza-y-Escocia.pdf" download>Descargar el itinerario gratis</a>
+        </div>
+        <picture class="gift__cover">
+          <source type="image/webp" srcset="img/pdf-portada.webp">
+          <img src="img/pdf-portada.jpg" alt="Portada del itinerario de regalo: Escenarios de película, Suiza y Escocia, 7 días" loading="lazy" width="760" height="1074">
+        </picture>
+      </div>
+    </section>
+
+    <!-- ================= CÓMO FUNCIONA ================= -->
+    <section class="section steps" id="como-funciona">
+      <div class="wrap">
+        <h2 class="h2 center">De la idea a tu plan en cuatro pasos</h2>
+        <p class="center steps__intro">Tú me cuentas qué quieres vivir y yo te ayudo a convertirlo en un itinerario personalizado, aprovechando mi experiencia viajando por distintos países y lo que he aprendido en el camino.</p>
+        <ol class="route">
+          <li class="route__stop">
+            <span class="route__dot" aria-hidden="true"></span>
+            <h3>Cuéntame tu viaje</h3>
+            <p>Llenas un formulario corto: destino, fechas, presupuesto y cómo te gusta viajar.</p>
+          </li>
+          <li class="route__stop">
+            <span class="route__dot" aria-hidden="true"></span>
+            <h3>Te confirmo por WhatsApp</h3>
+            <p>Reviso tu viaje y te digo el precio exacto.</p>
+          </li>
+          <li class="route__stop">
+            <span class="route__dot" aria-hidden="true"></span>
+            <h3>Confirmas con tu pago</h3>
+            <p>En 2 días hábiles desde tu pago, tu itinerario está listo.</p>
+          </li>
+          <li class="route__stop">
+            <span class="route__dot" aria-hidden="true"></span>
+            <h3>Lo recibes en PDF</h3>
+            <p>Si quieres cambiar algo, tienes una revisión gratis durante los 7 días siguientes.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ================= PRECIO ================= -->
+    <section class="section price" id="precio">
+      <div class="wrap">
+        <h2 class="h2 center">Un precio, sin paquetes</h2>
+        <article class="postcard" aria-labelledby="precio-titulo">
+          <div class="postcard__stamp" aria-hidden="true"><span>Lanzamiento</span></div>
+          <div class="postcard__left">
+            <p class="postcard__label" id="precio-titulo">Tu itinerario personalizado</p>
+            <p class="postcard__price">
+              <del aria-label="Precio regular 24 dólares">$24</del>
+              <span class="postcard__amount">$15</span><span class="postcard__cur">USD</span>
+            </p>
+            <p class="postcard__detail">De hasta 7 días. Cada día extra: +$1 USD.</p>
+          </div>
+          <div class="postcard__right">
+            <div class="postcard__pay">
+              <p>Pagas por transferencia cuando te confirmo tu viaje por WhatsApp. Acepto:</p>
+              <ul class="currencies">
+                <li><span class="currencies__sym" aria-hidden="true">$</span> COP <span class="currencies__name">Pesos colombianos</span></li>
+                <li><span class="currencies__sym" aria-hidden="true">$</span> MXN <span class="currencies__name">Pesos mexicanos</span></li>
+                <li><span class="currencies__sym" aria-hidden="true">US$</span> USD <span class="currencies__name">Dólares</span></li>
+              </ul>
+            </div>
+            <a class="btn" href="#formulario">Quiero mi itinerario</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ================= SOBRE MÍ ================= -->
+    <section class="section about" id="sobre-mi">
+      <div class="wrap about__grid">
+        <div class="about__text">
+          <h2 class="h2">Hola, soy Paulina <span aria-hidden="true">👋</span></h2>
+          <p>Vengo de Colombia y ahora vivo en México, el quinto país en el que he vivido. He viajado por varios países, la mayoría de las veces sola.</p>
+          <p>Cada itinerario lo armo yo misma, y con los años aprendí a punta de errores: los que ya cometí para que tú no tengas que cometerlos. Sé lo que es llegar a una ciudad nueva sin conocer a nadie, y también lo increíble que se siente cuando todo sale bien.</p>
+          <p>Por eso creé SolaTrip: para que viajar sola te dé menos miedo y más ganas. Yo pongo la experiencia; tú solo disfrutas el viaje. <span aria-hidden="true">✨</span></p>
+          <p class="about__ig">Si quieres, puedes echarle un vistazo a algunos de mis viajes en mi Instagram, <a href="https://www.instagram.com/maparisti/" target="_blank" rel="noopener">@maparisti</a>.</p>
+        </div>
+        <figure class="polaroid">
+          <picture>
+            <source type="image/webp" srcset="img/paulina-lucerna.webp">
+            <img src="img/paulina-lucerna.jpg" alt="Paulina sonriendo junto al río en Lucerna, Suiza" loading="lazy" width="900" height="1200">
+          </picture>
+          <figcaption>Yo en Lucerna</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ================= FORMULARIO ================= -->
+    <section class="section form-sec" id="formulario">
+      <div class="wrap wrap--narrow">
+        <h2 class="h2 center">Cuéntame de tu viaje</h2>
+        <p class="center form-sec__intro">Cuéntame lo que ya tengas claro; lo que no, lo hablamos por WhatsApp. Enviar el formulario no tiene costo.</p>
+
+        <form class="trip-form" id="trip-form" novalidate>
+          <div class="field">
+            <label for="f-nombre">Nombre</label>
+            <input id="f-nombre" name="Nombre" type="text" autocomplete="given-name">
+          </div>
+          <div class="field">
+            <label for="f-edad">Edad</label>
+            <input id="f-edad" name="Edad" type="text" inputmode="numeric">
+          </div>
+          <div class="field field--full">
+            <label for="f-destino">Destino o destinos</label>
+            <input id="f-destino" name="Destino o destinos" type="text" placeholder="Ej.: Lisboa y Oporto">
+          </div>
+          <div class="field">
+            <label for="f-llegada">Ciudad de llegada</label>
+            <input id="f-llegada" name="Ciudad de llegada" type="text">
+          </div>
+          <div class="field">
+            <label for="f-salida">Ciudad de salida</label>
+            <input id="f-salida" name="Ciudad de salida" type="text">
+          </div>
+          <div class="field">
+            <label for="f-fechas">Fechas o mes del viaje</label>
+            <input id="f-fechas" name="Fechas o mes del viaje" type="text">
+          </div>
+          <div class="field">
+            <label for="f-dias">Número de días</label>
+            <input id="f-dias" name="Número de días" type="text" inputmode="numeric">
+          </div>
+          <div class="field field--full">
+            <label for="f-presupuesto">Presupuesto aproximado y moneda</label>
+            <input id="f-presupuesto" name="Presupuesto aproximado y moneda" type="text">
+          </div>
+          <div class="field">
+            <label for="f-tipo">Tipo de viajera <span class="req" aria-hidden="true">*</span></label>
+            <select id="f-tipo" name="Tipo de viajera" required aria-describedby="e-tipo">
+              <option value="">Elige una opción</option>
+              <option>Relajada / cultural</option>
+              <option>Aventurera / activa</option>
+              <option>Mixta</option>
+              <option>Foodie</option>
+              <option>Primeriza</option>
+            </select>
+            <p class="field__error" id="e-tipo" hidden>Elige qué tipo de viajera eres.</p>
+          </div>
+          <div class="field">
+            <label for="f-nivel">Nivel de comodidad viajando sola <span class="req" aria-hidden="true">*</span></label>
+            <select id="f-nivel" name="Nivel de comodidad viajando sola" required aria-describedby="e-nivel">
+              <option value="">Elige una opción</option>
+              <option>Es mi primera vez</option>
+              <option>Ya he viajado poco</option>
+              <option>Viajo sola seguido</option>
+            </select>
+            <p class="field__error" id="e-nivel" hidden>Elige qué tan cómoda te sientes viajando sola.</p>
+          </div>
+          <div class="field field--full">
+            <label for="f-mas">Algo más que quieras contarme</label>
+            <textarea id="f-mas" name="Algo más" rows="4"></textarea>
+          </div>
+          <div class="field field--full form-actions">
+            <button class="btn btn--wide" type="submit">Enviar por WhatsApp</button>
+            <p class="form-note">Al enviar aceptas el <a href="aviso-privacidad.html">aviso de privacidad</a>.</p>
+            <p class="form-status" id="form-status" role="status" hidden></p>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- ================= PREGUNTAS ================= -->
+    <section class="section faq" id="preguntas">
+      <div class="wrap wrap--narrow">
+        <h2 class="h2 center">Preguntas frecuentes</h2>
+        <details>
+          <summary>¿Cuándo pago?</summary>
+          <p>Antes de que prepare tu itinerario. Me envías el formulario, te escribo por WhatsApp con el precio exacto y, si te cuadra, pagas el total por transferencia en pesos colombianos (COP), pesos mexicanos (MXN) o dólares (USD). En 2 días hábiles desde tu pago tienes tu itinerario.</p>
+        </details>
+        <details>
+          <summary>¿En cuánto tiempo lo recibo?</summary>
+          <p>En 2 días hábiles desde tu pago, en PDF por WhatsApp.</p>
+        </details>
+        <details>
+          <summary>¿Y si quiero cambiar algo?</summary>
+          <p>Tienes una revisión gratis durante los 7 días siguientes a la entrega.</p>
+        </details>
+        <details>
+          <summary>¿Mi viaje dura más de 7 días?</summary>
+          <p>Cada día extra suma $1 USD.</p>
+        </details>
+        <details>
+          <summary>¿Sirve si es mi primer viaje sola?</summary>
+          <p>Sí. En el formulario me cuentas tu nivel de comodidad viajando sola y armo el plan con eso en mente.</p>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <div>
+        <p class="footer__logo">SolaTrip</p>
+        <p class="footer__slogan">Explora el mundo a tu manera</p>
+      </div>
+      <p class="footer__disclaimer">Los itinerarios y consejos de seguridad son una guía y no reemplazan tu propio criterio ni las fuentes oficiales de tu destino.</p>
+      <ul class="footer__links">
+        <li><a href="aviso-privacidad.html">Aviso de privacidad</a></li>
+        <li><a href="https://www.instagram.com/maparisti/" target="_blank" rel="noopener">Instagram @maparisti</a></li>
+        <li>Hecho con cariño, por una viajera para otra</li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
